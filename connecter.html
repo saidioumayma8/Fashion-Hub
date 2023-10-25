@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="./form.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap" rel="stylesheet">
+
+   <title>SE CONNECTER</title>
+</head>
+
+<body>
+   <header class="header2">
+      <a href="./index.html" class="logo">
+         <span>FASHION</span>
+         <span>HUB</span>
+      </a>
+      <div class="burger-menu" onclick="showMenu()">
+         <div class="bar"></div>
+         <div class="bar"></div>
+         <div class="bar"></div>
+      </div>
+      <ul class="toto">
+         <li>
+            <a class="home" href="index.html">HOME</a>
+         </li>
+         <li>
+            <a class="Catalogue" href="catalogue.html">CATALOGUE</a>
+            <ul class="dropdown">
+               <li><a href="./catalogue.html">WOMEN</a></li>
+               <li><a href="./catalogueman.html">MANS</a></li>
+               <li><a href="./cataloguekids.html">KIDS</a></li>
+            </ul>
+         </li>
+         <li>
+            <a class="connecter" href="connecter.html">SE CONNECTER</a>
+         </li>
+      </ul>
+   </header>
+   <section class="contact">
+      <div class="container">
+         <div class="text">
+            Contact us Form
+         </div>
+         <form action="#" id="contact-form">
+            <div class="form-row">
+               <div class="input-data">
+                  <input type="text" id="first-name" required>
+                  <div class="underline"></div>
+                  <label for="first-name">First Name</label>
+               </div>
+               <div class="input-data">
+                  <input type="text" id="last-name" required>
+                  <div class="underline"></div>
+                  <label for="last-name">Last Name</label>
+               </div>
+            </div>
+            <div class="form-row">
+               <div class="input-data">
+                  <input type="text" id="email" required>
+                  <div class="underline"></div>
+                  <label for="email">Email Address</label>
+               </div>
+               <div class="input-data">
+                  <input type="text" id="phone" required>
+                  <div class="underline"></div>
+                  <label for="phone">Phone number</label>
+               </div>
+            </div>
+            <div class="form-row submit-btn">
+               <div class="input-data">
+                  <div class="inner"></div>
+                  <input type="submit" value="submit">
+               </div>
+            </div>
+         </form>
+      </div>
+   </section>
+   <section>
+      <div class="ggg">
+
+          <div>
+              <a class="company1">2022 Company</a>
+          </div>
+          <div style="display: flex;">
+
+              <a class="privacy2">Privacy Policy</a>
+              <a class="privacy2">Terms and conditions</a>
+
+          </div>
+      </div>
+  </section>
+
+   <script src="script.js"></script>
+
+</body>
+
+</html>
